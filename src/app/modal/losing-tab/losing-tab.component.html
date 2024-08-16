@@ -1,0 +1,11 @@
+<div class="modal-header">
+    <h4 class="modal-title text-center">Game Over!</h4>
+    <p>You Lost!</p>
+    <img src="/assets/red-clock.png" alt="">
+</div>
+<div class="modal-body" style="text-align: center;">
+    <p>Your score is {{gameService.stats.totalPoints}}</p>
+</div>
+<div class="btn-holder modal-footer">
+    <button type="button" class="btn btn-danger" (click)="modal.close('Close click')">Play Again</button>
+</div>

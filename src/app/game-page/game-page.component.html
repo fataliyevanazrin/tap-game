@@ -1,0 +1,5 @@
+ <div class="container">
+    <app-time-bar [initialTime]="gameService.initialTime" (timeIsUp)="timeIsUp()" *ngIf="gameService.showTimer"></app-time-bar>
+    <app-stats [stats]="gameService.stats"></app-stats>
+    <app-dot (tap)="tap($event)" *ngFor="let dot of gameService.dotList$ | async" [dot]="dot"></app-dot>
+</div>

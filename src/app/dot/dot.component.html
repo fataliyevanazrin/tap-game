@@ -1,0 +1,9 @@
+<button
+  [ngStyle]="{
+    left: dot.x + 'px',
+    top: dot.y + 'px'
+  }"
+  (click)="dotClick()"
+  [ngClass]="{'btn-danger': !dot.blue, 'btn-primary': dot.blue}"
+  class="btn btn-circle"
+></button>

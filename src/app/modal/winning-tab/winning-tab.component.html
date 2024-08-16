@@ -1,0 +1,12 @@
+<div class="modal-header">
+    <h4 class="modal-title text-center">Congratulations!</h4>
+    <img src="/assets/winner-cup.png" alt="">
+    <p>Stage {{gameService.stats.stage}} completed!</p>
+</div>
+<div class="modal-body" style="text-align: center;">
+    <p class="mb-0">Collected</p>
+    <p class="mt-0">{{gameService.stats.totalPoints}} points</p>
+</div>
+<div class="btn-holder modal-footer">
+    <button type="button" class="btn btn-primary" (click)="modal.close('Close click')">Next Stage</button>
+</div>
