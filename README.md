@@ -2,26 +2,48 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Tap Game** is an engaging and addictive Angular-based game where players test their reflexes by tapping on blue dots among a group of red dots. The game starts simple but becomes increasingly challenging as the levels progress. The objective is to tap a required number of blue dots within a given time to pass each level.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Interactive Gameplay**: Simple and fun tap-based game mechanics.
+- **Progressive Difficulty**: As players advance through the levels, the number of required blue dots to tap increases, and so does the time limit.
+- **Level-Based System**: Each new level increases the challenge, providing an engaging experience.
+- **Responsive Design**: Works well on both desktop and mobile devices.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+To run this project locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/same-letter.git
+    cd same-letter
+    ```
 
-## Running end-to-end tests
+2. **Install the dependencies:**
+    ```bash
+    npm install
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Run the application:**
+    ```bash
+    ng serve
+    ```
 
-## Further help
+4. Open your browser and navigate to `http://localhost:4200`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+
+-Starting the Game: Click the "Play Game" button on the home screen to begin.
+-Objective: In the first level, you must tap 5 blue dots within the given time limit to pass the level.
+-Level Progression: As you progress, the number of blue dots you need to tap increases by one for each new level, and the time limit also extends.
+-Winning and Losing: If you tap the required number of blue dots before time runs out, you advance to the next level. If you fail, the game restarts.
+
+
+## License
+
+This project is licensed under the MIT License
