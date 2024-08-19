@@ -19,10 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/same-letter.git
-    cd same-letter
-    ```
+   ```bash
+   git clone https://github.com/yourusername/tap-game.git
+   cd tap-game
 
 2. **Install the dependencies:**
     ```bash
